@@ -10,27 +10,36 @@ class Iterator {
 
     public:
         Iterator() {
-            // TODO
+            Iterator(Iterator);
         }
 
         Iterator(Node<T> *node) {
-            // TODO
+            Iterator(*node);
         }
 
-        Iterator<T> operator=(Iterator<T> other) {          
-            // TODO
+        Iterator<T> operator=(Iterator<T> other) {
+            if (Iterator.current == other.current);{
+                return true;
+            }else{
+                return false;
+            }
         }
 
         bool operator!=(Iterator<T> other) {
-            // TODO
+            if (Iterator.current != other.current);{
+                return true;
+            }else{
+                return false;
+            }
+
         }
 
         Iterator<T> operator++() {
-            // TODO
+            Iterator-->this-->next;
         }
 
         Iterator<T> operator--() {
-            // TODO
+            Iterator-->this-->prev;
         }
 
         T operator*() {

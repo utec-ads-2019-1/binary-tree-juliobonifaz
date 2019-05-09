@@ -12,12 +12,24 @@ class BSTree {
     public:
         BSTree() : root(nullptr) {};
 
-        bool find(T data) { 
-            // TODO
-        } 
+        bool find(T data) {
+            while(data!= nullptr) {
+                if (data > T) {
+                    T *left;
+                }
+                if (data < T){
+                    T *right;
+                }
+                if (data == T){
+                    return true;
+                }
+            }
+            return false;
+        }
+
 
         bool insert(T data) {
-            // TODO
+            // Todo
         }
 
         bool remove(T data) {
@@ -41,7 +53,7 @@ class BSTree {
         }
 
         Iterator<T> begin() {
-            // TODO
+            T-->this-->root;
         }
 
         Iterator<T> end() { 

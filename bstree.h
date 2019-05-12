@@ -13,6 +13,7 @@ class BSTree {
         BSTree() : root(nullptr) {};
 
         bool find(T data) {
+            // T es el tipo, no la variable
             while(data!= nullptr) {
                 if (data > T) {
                     T *left;
